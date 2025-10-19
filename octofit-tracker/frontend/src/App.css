@@ -1,0 +1,188 @@
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  min-height: 100vh;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+  color: #2d3a4b;
+}
+
+.app-heading {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #2d7ff9;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-shadow: 0 2px 8px rgba(45,127,249,0.08);
+}
+
+.app-link {
+  color: #2d7ff9;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.app-link:hover {
+  color: #1a4e9e;
+  text-decoration: underline;
+}
+
+.app-navbar {
+  margin-bottom: 2rem;
+  background: linear-gradient(90deg, #2d7ff9 0%, #6ec6ff 100%);
+  box-shadow: 0 2px 8px rgba(45,127,249,0.08);
+}
+.navbar-brand img {
+  height: 40px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.app-form {
+  max-width: 500px;
+  margin: 0 auto 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.app-card {
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  background: linear-gradient(135deg, #f8f9fa 0%, #e0eafc 100%);
+  border: 1px solid #d1e3fa;
+}
+
+.app-modal .modal-content {
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.12);
+}
+
+.app-table {
+  margin-bottom: 2rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e0eafc 100%);
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border: 1px solid #d1e3fa;
+}
+.app-table th {
+  background: #2d7ff9;
+  color: #fff;
+  font-weight: 600;
+}
+.app-table td, .app-table th {
+  vertical-align: middle;
+}
+
+.app-btn {
+  min-width: 100px;
+  margin: 0.25rem;
+  background: linear-gradient(90deg, #2d7ff9 0%, #6ec6ff 100%);
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(45,127,249,0.08);
+  transition: background 0.2s, color 0.2s;
+}
+.app-btn:hover {
+  background: linear-gradient(90deg, #1a4e9e 0%, #2d7ff9 100%);
+  color: #fff;
+}
+
+/* App.css - Bootstrap enhanced styles */
+
+.app-heading {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.app-link {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.app-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.app-navbar {
+  margin-bottom: 2rem;
+}
+
+.app-form {
+  max-width: 500px;
+  margin: 0 auto 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.app-card {
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.app-modal .modal-content {
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.12);
+}
+
+.app-table {
+  margin-bottom: 2rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.app-table th {
+  background: #f8f9fa;
+  font-weight: 600;
+}
+.app-table td, .app-table th {
+  vertical-align: middle;
+}
+
+.app-btn {
+  min-width: 100px;
+  margin: 0.25rem;
+}
+
+/* App-wide layout helpers to work with Bootstrap */
+.app-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.page-title {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.card-table thead th {
+  vertical-align: middle;
+}
+
+.table-fixed {
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+
+.muted-small {
+  color: #6c757d;
+  font-size: 0.9rem;
+}
+
+.brand-link {
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+.list-inline-gap > * {
+  margin-right: 0.5rem;
+}
+
+.small-card {
+  padding: 0.75rem;
+}
